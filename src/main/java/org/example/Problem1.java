@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Problem1 {
 
     public  String donuts(int count) {
@@ -17,3 +18,4 @@ public class Problem1 {
         System.out.println(p.donuts(23));
     }
 }
+
