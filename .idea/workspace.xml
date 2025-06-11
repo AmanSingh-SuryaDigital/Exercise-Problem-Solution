@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6755af91-2d07-4f72-99ac-d0ab4d3d8c20" name="Changes" comment="Problem 1 New Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Exercise-Problem-Solution" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="aman/Problem-1" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AmanSingh-SuryaDigital&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AmanSingh-SuryaDigital/Exercise-Problem-Solution.git&quot;,
+    &quot;accountId&quot;: &quot;e19c1831-8941-4a65-ad0d-bcb103e93c8e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yG8324S4ZEEVKDwdc73Gb6jiMu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Problem2.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem1.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem2.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem3.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem5.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem6.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem7.main()].executor": "Run",
+    "Gradle.Problem1Test.donutsTest.executor": "Run",
+    "Gradle.Problem2Test.bothEnds.executor": "Run",
+    "Gradle.Problem2Test.executor": "Run",
+    "Gradle.Problem3Test.fixStart.executor": "Run",
+    "Gradle.Problem4Test.mixUpTest.executor": "Run",
+    "Gradle.Problem5Test.verbing.executor": "Run",
+    "Gradle.Problem6Test.executor": "Run",
+    "Gradle.Problem6Test.notbad.executor": "Run",
+    "Gradle.Problem6Test.notbadTest.executor": "Run",
+    "Gradle.Problem7Test.frontBackTest.executor": "Run",
+    "JUnit.Problem1Test.donutsTest.executor": "Run",
+    "JUnit.Problem2Test.bothEnds.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "aman/problem-6",
+    "onboarding.tips.debug.path": "/home/aman/IdeaProjects/Exercise-Problem-Solution/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Problem2">
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Problem2" />
+      <module name="Exercise-Problem-Solution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Problem3" />
+      <module name="Exercise-Problem-Solution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem3Test.fixStart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.Problem3Test.fixStart&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Problem1Test.donutsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise-Problem-Solution.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Problem1Test" />
+      <option name="METHOD_NAME" value="donutsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem2Test.bothEnds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise-Problem-Solution.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Problem2Test" />
+      <option name="METHOD_NAME" value="bothEnds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Problem2" />
+        <item itemvalue="JUnit.Problem2Test.bothEnds" />
+        <item itemvalue="JUnit.Problem1Test.donutsTest" />
+        <item itemvalue="Application.Problem3" />
+        <item itemvalue="Gradle.Problem3Test.fixStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6755af91-2d07-4f72-99ac-d0ab4d3d8c20" name="Changes" comment="" />
+      <created>1749449346490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749449346490</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Problem 1 commit">
+      <option name="closed" value="true" />
+      <created>1749494821124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749494821124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercise Problem2 Solution">
+      <option name="closed" value="true" />
+      <created>1749495711576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749495711576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercise Problem2 Solution">
+      <option name="closed" value="true" />
+      <created>1749496458623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749496458623</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Exercise Problem3 Solution">
+      <option name="closed" value="true" />
+      <created>1749496609475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749496609475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exercise Problem3 Solution">
+      <option name="closed" value="true" />
+      <created>1749497267216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749497267216</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exercise Problem4 Solution">
+      <option name="closed" value="true" />
+      <created>1749497327309</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749497327309</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exercise Problem4 Solution">
+      <option name="closed" value="true" />
+      <created>1749497399074</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749497399074</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Exercise Problem4 Solution">
+      <option name="closed" value="true" />
+      <created>1749497432904</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749497432904</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exercise Problem6 Solution">
+      <option name="closed" value="true" />
+      <created>1749497458355</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749497458355</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Exercise Problem7 Solution">
+      <option name="closed" value="true" />
+      <created>1749497489236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749497489236</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Exercise inbuild File">
+      <option name="closed" value="true" />
+      <created>1749498074244</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749498074244</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Exercise inbuild File">
+      <option name="closed" value="true" />
+      <created>1749498187147</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749498187147</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Exercise inbuild File">
+      <option name="closed" value="true" />
+      <created>1749557043712</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749557043712</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exercise Problem1 Solution">
+      <option name="closed" value="true" />
+      <created>1749557097701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749557097701</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Exercise Problem1 Solution">
+      <option name="closed" value="true" />
+      <created>1749558216463</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749558216463</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Exercise Problem1 Solution">
+      <option name="closed" value="true" />
+      <created>1749615830484</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749615830484</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Exercise Problem1 Solution">
+      <option name="closed" value="true" />
+      <created>1749615897399</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749615897399</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Exercise Problem1 Solution">
+      <option name="closed" value="true" />
+      <created>1749617860948</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749617860948</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Exercise Problem3  Solution">
+      <option name="closed" value="true" />
+      <created>1749625148667</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1749625148667</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Exercise Problem3  Solution">
+      <option name="closed" value="true" />
+      <created>1749625270809</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749625270809</updated>
+    </task>
+    <task id="LOCAL-00021" summary="setUp new commit">
+      <option name="closed" value="true" />
+      <created>1749625446104</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1749625446104</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Problem 1 New Commit">
+      <option name="closed" value="true" />
+      <created>1749627124000</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1749627124000</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Problem 1 commit" />
+    <MESSAGE value="Exercise Problem2 Solution" />
+    <MESSAGE value="Exercise Problem3 Solution" />
+    <MESSAGE value="Exercise Problem4 Solution" />
+    <MESSAGE value="Exercise Problem6 Solution" />
+    <MESSAGE value="Exercise Problem7 Solution" />
+    <MESSAGE value="Exercise inbuild File" />
+    <MESSAGE value="Exercise Problem1 Solution" />
+    <MESSAGE value="Exercise Problem3  Solution" />
+    <MESSAGE value="setUp new commit" />
+    <MESSAGE value="Problem 1 New Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem 1 New Commit" />
+  </component>
+</project>
