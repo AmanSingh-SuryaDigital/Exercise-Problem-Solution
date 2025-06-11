@@ -14,3 +14,4 @@ public class Problem1Test {
         assertEquals("Number of donuts: -1",pr.donuts(-1));
     }
 }
+
