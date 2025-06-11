@@ -9,5 +9,8 @@ public class Problem2Test {
     @Test
     public void bothEnds() {
        assertEquals("Amgh" ,Problem2.bothEnds("AmanSingh"));
+        assertEquals("" ,Problem2.bothEnds("a"));
+        assertEquals("held" ,Problem2.bothEnds("helloWorld"));
+
     }
 }
