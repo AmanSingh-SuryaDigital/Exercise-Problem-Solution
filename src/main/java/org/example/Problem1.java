@@ -1,7 +1,5 @@
 package  org.example;
 
-
-
 public class Problem1 {
 
     public  String donuts(int count) {

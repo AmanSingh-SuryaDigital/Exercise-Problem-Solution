@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6755af91-2d07-4f72-99ac-d0ab4d3d8c20" name="Changes" comment="Problem 1 New Commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,44 +97,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Problem2.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Exercise-Problem-Solution [:org.example.Problem1.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Exercise-Problem-Solution [:org.example.Problem2.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Exercise-Problem-Solution [:org.example.Problem3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Exercise-Problem-Solution [:org.example.Problem5.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Exercise-Problem-Solution [:org.example.Problem6.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Exercise-Problem-Solution [:org.example.Problem7.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem1Test.donutsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem2Test.bothEnds.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem2Test.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem3Test.fixStart.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem4Test.mixUpTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem5Test.verbing.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem6Test.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem6Test.notbad.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem6Test.notbadTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Problem7Test.frontBackTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Problem1Test.donutsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Problem2Test.bothEnds.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;aman/problem-1&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/aman/IdeaProjects/Exercise-Problem-Solution/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Probelm1.executor": "Run",
+    "Application.Problem1.executor": "Run",
+    "Application.Problem2.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem1.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem2.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem3.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem5.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem6.main()].executor": "Run",
+    "Gradle.Exercise-Problem-Solution [:org.example.Problem7.main()].executor": "Run",
+    "Gradle.Problem1Test.donutsTest.executor": "Run",
+    "Gradle.Problem2Test.bothEnds.executor": "Run",
+    "Gradle.Problem2Test.executor": "Run",
+    "Gradle.Problem3Test.fixStart.executor": "Run",
+    "Gradle.Problem4Test.mixUpTest.executor": "Run",
+    "Gradle.Problem5Test.verbing.executor": "Run",
+    "Gradle.Problem6Test.executor": "Run",
+    "Gradle.Problem6Test.notbad.executor": "Run",
+    "Gradle.Problem6Test.notbadTest.executor": "Run",
+    "Gradle.Problem7Test.frontBackTest.executor": "Run",
+    "JUnit.Problem1Test.donutsTest.executor": "Run",
+    "JUnit.Problem2Test.bothEnds.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "aman/problem-1",
+    "onboarding.tips.debug.path": "/home/aman/IdeaProjects/Exercise-Problem-Solution/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -143,7 +145,33 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem2">
+  <component name="RunManager" selected="Application.Problem1">
+    <configuration name="Probelm1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Probelm1" />
+      <module name="Exercise-Problem-Solution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Problem1" />
+      <module name="Exercise-Problem-Solution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Problem2" />
       <module name="Exercise-Problem-Solution.main" />
@@ -156,43 +184,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Problem3" />
-      <module name="Exercise-Problem-Solution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem3Test.fixStart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.Problem3Test.fixStart&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="Problem1Test.donutsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise-Problem-Solution.test" />
@@ -228,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem1" />
+        <item itemvalue="Application.Probelm1" />
         <item itemvalue="Application.Problem2" />
         <item itemvalue="JUnit.Problem2Test.bothEnds" />
         <item itemvalue="JUnit.Problem1Test.donutsTest" />
-        <item itemvalue="Application.Problem3" />
-        <item itemvalue="Gradle.Problem3Test.fixStart" />
       </list>
     </recent_temporary>
   </component>
@@ -412,23 +403,7 @@
       <option name="project" value="LOCAL" />
       <updated>1749625446104</updated>
     </task>
-    <task id="LOCAL-00022" summary="Problem 1 New Commit">
-      <option name="closed" value="true" />
-      <created>1749637492736</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1749637492736</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Problem 1 New Commit">
-      <option name="closed" value="true" />
-      <created>1749637823967</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1749637823967</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -442,7 +417,17 @@
     <MESSAGE value="Exercise Problem1 Solution" />
     <MESSAGE value="Exercise Problem3  Solution" />
     <MESSAGE value="setUp new commit" />
-    <MESSAGE value="Problem 1 New Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem 1 New Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="setUp new commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Problem1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
