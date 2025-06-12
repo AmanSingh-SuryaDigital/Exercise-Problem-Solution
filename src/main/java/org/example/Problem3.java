@@ -3,19 +3,19 @@ package org.example;
 public class Problem3 {
     public static  String fixStart(String value){
 
-        String  a=value.substring(0,1);
+        String  output=value.substring(0,1);
 
         for(int i=1; i<value.length(); i++){
             if(value.charAt(0)==value.charAt(i)){
 
-                a=a + "*";
+                output=output + "*";
             }
             else{
-                a=a+value.charAt(i);
+                output=output+value.charAt(i);
             }
 
         }
-        return a;
+        return output;
     }
 
     public static void main(String[] args) {
