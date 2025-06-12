@@ -13,5 +13,4 @@ public class Problem3Test {
         assertEquals("Ama**n", Problem3.fixStart("AmaAAn"));
         assertNotEquals("Amaaan", Problem3.fixStart("Amaaan"));
     }
-
 }
