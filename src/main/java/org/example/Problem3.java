@@ -1,17 +1,17 @@
 package org.example;
 
 public class Problem3 {
-    public static  String fixStart(String s){
+    public static  String fixStart(String value){
 
-        String  a=s.substring(0,1);
+        String  a=value.substring(0,1);
 
-        for(int i=1; i<s.length(); i++){
-            if(s.charAt(0)==s.charAt(i)){
+        for(int i=1; i<value.length(); i++){
+            if(value.charAt(0)==value.charAt(i)){
 
                 a=a + "*";
             }
             else{
-                a=a+s.charAt(i);
+                a=a+value.charAt(i);
             }
 
         }
@@ -22,5 +22,4 @@ public class Problem3 {
         System.out.println(fixStart("babble"));
         System.out.println(fixStart("AmaAAn"));
     }
-
 }
