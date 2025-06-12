@@ -1,21 +1,17 @@
 package org.example;
 
 public class Problem3 {
-    public static  String fixStart(String value){
+    public static String fixStart(String value) {
+        StringBuilder output = new StringBuilder(value.substring(0, 1));
 
-        String  output=value.substring(0,1);
-
-        for(int i=1; i<value.length(); i++){
-            if(value.charAt(0)==value.charAt(i)){
-
-                output=output + "*";
+        for (int i = 1; i < value.length(); i++) {
+            if (value.charAt(0) == value.charAt(i)) {
+                output.append("*");
+            } else {
+                output.append(value.charAt(i));
             }
-            else{
-                output=output+value.charAt(i);
-            }
-
         }
-        return output;
+        return output.toString();
     }
 
     public static void main(String[] args) {
