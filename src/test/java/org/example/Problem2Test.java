@@ -1,15 +1,17 @@
 package org.example;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class Problem2Test {
 
     @Test
-    public void bothEnds() {
-       assertEquals("Amgh" ,Problem2.bothEnds("AmanSingh"));
-        assertEquals("" ,Problem2.bothEnds("a"));
-        assertEquals("held" ,Problem2.bothEnds("helloWorld"));
+    public void creatingStringFromBothEnds() {
+       assertEquals("Amgh" ,Problem2.creatingStringFromBothEnds("AmanSingh"));
+        assertEquals("" ,Problem2.creatingStringFromBothEnds("a"));
+        assertEquals("held" ,Problem2.creatingStringFromBothEnds("helloWorld"));
+        assertEquals("" ,Problem2.creatingStringFromBothEnds("hel"));
+
 
     }
 }

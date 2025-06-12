@@ -2,20 +2,20 @@ package org.example;
 
 public class Problem2 {
 
-    public static String bothEnds(String s) {
-        if (s.length() < 2) {
+    public static String creatingStringFromBothEnds(String word) {
+        if (word.length() < 2) {
             return "";
         } else {
-            String firstTwo = s.substring(0, 2);
-            String lastTwo = s.substring(s.length() - 2);
-            return firstTwo + lastTwo;
+            String firstTwoSubstring = word.substring(0, 2);
+            String lastTwoSubstring = word.substring(word.length() - 2);
+            return firstTwoSubstring + lastTwoSubstring;
         }
     }
 
     public static void main(String[] args) {
-        System.out.println(bothEnds("AmanSingh"));
-        System.out.println(bothEnds("a"));
-        System.out.println(bothEnds("helloWorld"));
+        System.out.println(creatingStringFromBothEnds("AmanSingh"));
+        System.out.println(creatingStringFromBothEnds("a"));
+        System.out.println(creatingStringFromBothEnds("helloWorld"));
     }
 
 }
