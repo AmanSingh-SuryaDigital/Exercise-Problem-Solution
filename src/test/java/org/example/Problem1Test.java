@@ -10,17 +10,17 @@ public class Problem1Test {
 
     @Test
     public void donutsTest() {
-        Problem1 pr = new Problem1();
-        assertEquals("Number of donuts: 5", pr.donuts(5));
-        assertEquals("Number of donuts: many", pr.donuts(23));
+        Problem1 problem1 = new Problem1();
+        assertEquals("Number of donuts: 5", problem1.donuts(5));
+        assertEquals("Number of donuts: many", problem1.donuts(23));
 
     }
 
     @Test
     public void donutsNegativeInput() {
-        Problem1 pr = new Problem1();
+        Problem1 problem1 = new Problem1();
         try {
-            pr.donuts(-1);
+            problem1.donuts(-1);
             fail("Expected IllegalArgumentException for negative input");
         } catch (IllegalArgumentException e) {
 
