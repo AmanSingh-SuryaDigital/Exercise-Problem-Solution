@@ -2,17 +2,17 @@ package org.example;
 
 public class Problem6 {
 
-    public static String notbad(String s){
+    public static String notbad(String sentence){
 
-        int a=s.indexOf("not");
-        int b=s.indexOf("bad");
-        String str="";
+        int notposition=sentence.indexOf("not");
+        int badposition=sentence.indexOf("bad");
+        String updateSentence="";
 
-        if(b>a){
-          str=   s.replace(s.substring(a,b+3),"good");
+        if(badposition>notposition){
+            updateSentence  = sentence.replace(sentence.substring(notposition,badposition+3),"good");
         }
 
-        return str;
+        return updateSentence;
     }
 
     public static void main(String[] args) {
