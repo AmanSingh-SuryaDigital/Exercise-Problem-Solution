@@ -6,6 +6,7 @@ public class Problem6 {
 
         int notposition=sentence.indexOf("not");
         int badposition=sentence.indexOf("bad");
+
         String updateSentence="";
 
         if(badposition>notposition){
