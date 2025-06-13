@@ -1,7 +1,7 @@
-package  org.example;
+package org.example;
 
 public class Problem1 {
-    public  String donuts(int count) {
+    public String donuts(int count) {
         if (count >= 10) {
             return "Number of donuts: many";
         } else {
@@ -14,6 +14,7 @@ public class Problem1 {
 
         System.out.println(p.donuts(5));
         System.out.println(p.donuts(23));
+
     }
 }
 
