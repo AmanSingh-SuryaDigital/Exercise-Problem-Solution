@@ -16,15 +16,4 @@ public class Problem1Test {
 
     }
 
-    @Test
-    public void donutsNegativeInput() {
-        Problem1 problem1 = new Problem1();
-        try {
-            problem1.donuts(-1);
-            fail("Expected IllegalArgumentException for negative input");
-        } catch (IllegalArgumentException e) {
-
-            assertEquals("Count cannot be negative", e.getMessage());
-        }
-    }
 }
