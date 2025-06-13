@@ -1,14 +1,14 @@
 package org.example;
 
 public class Problem3 {
-    public static String fixStart(String value) {
-        StringBuilder output = new StringBuilder(value.substring(0, 1));
+    public static String fixStart(String stringValue) {
+        StringBuilder output = new StringBuilder(stringValue.substring(0, 1));
 
-        for (int i = 1; i < value.length(); i++) {
-            if (value.charAt(0) == value.charAt(i)) {
+        for (int i = 1; i < stringValue.length(); i++) {
+            if (stringValue.charAt(0) == stringValue.charAt(i)) {
                 output.append("*");
             } else {
-                output.append(value.charAt(i));
+                output.append(stringValue.charAt(i));
             }
         }
         return output.toString();
