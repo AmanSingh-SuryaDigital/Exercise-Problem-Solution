@@ -3,8 +3,6 @@ package org.example;
 public class Problem1 {
     public  String donuts(int count) {
 
-
-    public String donuts(int count) {
         if (count >= 10) {
             return "Number of donuts: many";
         } else {
