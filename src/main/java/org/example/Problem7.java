@@ -2,26 +2,23 @@ package org.example;
 
 public class Problem7 {
 
-    public static String frontBack(String a, String b){
+    public static String frontBack(String stringValue1, String stringValue2){
 
-        int c = a.length()/2;
-        int d= b.length()/2;
+        int stringValue3 = stringValue1.length()/2;
+        int stringValue4= stringValue2.length()/2;
 
-        if(a.length()%2==1){
-            c=c+1;
+        if(stringValue1.length()%2==1){
+            stringValue3=stringValue3+1;
         }
-        if(b.length()%2==1){
-            d=d+1;
+        if(stringValue2.length()%2==1){
+            stringValue4=stringValue4+1;
         }
-        String f1= a.substring(0,c);
-        String f2= b.substring(0,d);
+        String output1= stringValue1.substring(0,stringValue3);
+        String output2= stringValue2.substring(0,stringValue4);
+        String output3=stringValue1.substring(stringValue3);
+        String output4=stringValue2.substring(stringValue4);
 
-        String e1=a.substring(c);
-        String e2=b.substring(d);
-
-        return f1+f2+e1+e2;
-
-
+        return output1+output2+output3+output4;
     }
     public static void main(String[] args) {
 
