@@ -1,17 +1,18 @@
 package org.example;
 
 public class Problem3 {
-    public static String fixStart(String stringValue) {
-        StringBuilder output = new StringBuilder(stringValue.substring(0, 1));
+    public static String fixStart(String input) {
+        StringBuilder result = new StringBuilder(input.substring(0, 1));
+        char firstChar = input.charAt(0);
 
-        for (int i = 1; i < stringValue.length(); i++) {
-            if (stringValue.charAt(0) == stringValue.charAt(i)) {
-                output.append("*");
+        for (int i = 1; i < input.length(); i++) {
+            if (input.charAt(i) == firstChar) {
+                result.append("*");
             } else {
-                output.append(stringValue.charAt(i));
+                result.append(input.charAt(i));
             }
         }
-        return output.toString();
+        return result.toString();
     }
 
     public static void main(String[] args) {
