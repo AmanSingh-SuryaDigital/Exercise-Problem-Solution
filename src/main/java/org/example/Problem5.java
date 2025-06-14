@@ -2,15 +2,14 @@ package org.example;
 
 public class Problem5 {
 
-    public static String verbing(String stringValue1){
-        if (stringValue1.length() < 3) {
-            return stringValue1;
-        } else if (stringValue1.endsWith("ing")) {
-            return stringValue1 + "ly";
+    public static String verbing(String word) {
+        if (word.length() < 3) {
+            return word;
+        } else if (word.endsWith("ing")) {
+            return word + "ly";
         } else {
-            return stringValue1 + "ing";
+            return word + "ing";
         }
-
     }
 
     public static void main(String[] args) {
