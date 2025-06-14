@@ -2,13 +2,13 @@ package org.example;
 
 public class Problem2 {
 
-    public static String creatingStringFromBothEnds(String word) {
-        if (word.length() < 2) {
+    public static String creatingStringFromBothEnds(String input) {
+        if (input.length() < 2) {
             return "";
         } else {
-            String firstTwoSubstring = word.substring(0, 2);
-            String lastTwoSubstring = word.substring(word.length() - 2);
-            return firstTwoSubstring + lastTwoSubstring;
+            String firstTwo = input.substring(0, 2);
+            String lastTwo = input.substring(input.length() - 2);
+            return firstTwo + lastTwo;
         }
     }
 
