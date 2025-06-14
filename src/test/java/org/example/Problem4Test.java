@@ -11,4 +11,5 @@ public class Problem4Test {
         assertEquals( "pox mid",Problem4.mixUp("mix","pod"));
         assertEquals( "Sian Amngh",Problem4.mixUp("Aman","Singh"));
     }
+
 }
