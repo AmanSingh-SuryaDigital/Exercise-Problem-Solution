@@ -2,18 +2,18 @@ package org.example;
 
 public class Problem6 {
 
-    public static String notbad(String sentence){
+    public static String notbad(String sentence) {
 
-        int notposition=sentence.indexOf("not");
-        int badposition=sentence.indexOf("bad");
+        int notIndex = sentence.indexOf("not");
+        int badIndex = sentence.indexOf("bad");
 
-        String updateSentence="";
+        String resultSentence = sentence;
 
-        if(badposition>notposition){
-            updateSentence  = sentence.replace(sentence.substring(notposition,badposition+3),"good");
+        if (notIndex != -1 && badIndex != -1 && badIndex > notIndex) {
+            resultSentence = sentence.replace(sentence.substring(notIndex, badIndex + 3), "good");
         }
 
-        return updateSentence;
+        return resultSentence;
     }
 
     public static void main(String[] args) {
