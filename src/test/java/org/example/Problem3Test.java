@@ -8,7 +8,7 @@ public class Problem3Test {
 
     @Test
     public void fixStartTest() {
-        assertEquals("ba**le", Problem3.fixStart("babble"));
-        assertEquals("Ama**n", Problem3.fixStart("AmaAAn"));
+        assertEquals("ba**le", Problem3.replaceRepeatedFirstChar("babble"));
+        assertEquals("Ama**n", Problem3.replaceRepeatedFirstChar("AmaAAn"));
     }
 }

@@ -1,22 +1,26 @@
 package org.example;
 
 public class Problem3 {
-    public static String fixStart(String input) {
-        StringBuilder result = new StringBuilder(input.substring(0, 1));
-        char firstChar = input.charAt(0);
+    public static String replaceRepeatedFirstChar(String inputString) {
 
-        for (int i = 1; i < input.length(); i++) {
-            if (input.charAt(i) == firstChar) {
-                result.append("*");
+        StringBuilder modifiedString = new StringBuilder(inputString.substring(0, 1));
+        char initialCharacter = inputString.charAt(0);
+
+        for (int i = 1; i < inputString.length(); i++) {
+            char currentChar = inputString.charAt(i);
+            if (currentChar == initialCharacter) {
+                modifiedString.append("*");
             } else {
-                result.append(input.charAt(i));
+                modifiedString.append(currentChar);
             }
         }
-        return result.toString();
+
+        return modifiedString.toString();
     }
 
     public static void main(String[] args) {
-        System.out.println(fixStart("babble"));
-        System.out.println(fixStart("AmaAAn"));
+        System.out.println(replaceRepeatedFirstChar("babble"));
+        System.out.println(replaceRepeatedFirstChar("AmaAAn"));
     }
 }
+
