@@ -2,23 +2,23 @@ package org.example;
 
 public class Problem6 {
 
-    public static String notbad(String sentence) {
+    public static String replaceNotBadWithGood(String inputSentence) {
 
-        int notIndex = sentence.indexOf("not");
-        int badIndex = sentence.indexOf("bad");
+        int notPosition = inputSentence.indexOf("not");
+        int badPosition = inputSentence.indexOf("bad");
 
-        String resultSentence = sentence;
+        String updatedSentence = inputSentence;
 
-        if (notIndex != -1 && badIndex != -1 && badIndex > notIndex) {
-            resultSentence = sentence.replace(sentence.substring(notIndex, badIndex + 3), "good");
+        if (notPosition != -1 && badPosition != -1 && badPosition > notPosition) {
+            updatedSentence = inputSentence.replace(inputSentence.substring(notPosition, badPosition + 3), "good");
         }
 
-        return resultSentence;
+        return updatedSentence;
     }
 
     public static void main(String[] args) {
 
-        System.out.println(notbad("This dinner is not that bad!"));
+        System.out.println(replaceNotBadWithGood("This dinner is not that bad!"));
     }
 
 }
