@@ -2,19 +2,19 @@ package org.example;
 
 public class Problem5 {
 
-    public static String verbing(String word) {
-        if (word.length() < 3) {
-            return word;
-        } else if (word.endsWith("ing")) {
-            return word + "ly";
+    public static String addVerbSuffix(String inputWord) {
+        if (inputWord.length() < 3) {
+            return inputWord;
+        } else if (inputWord.endsWith("ing")) {
+            return inputWord + "ly";
         } else {
-            return word + "ing";
+            return inputWord + "ing";
         }
     }
 
     public static void main(String[] args) {
-        System.out.println(verbing("Helloworld"));
-        System.out.println(verbing("Sing"));
+        System.out.println(addVerbSuffix("Helloworld"));
+        System.out.println(addVerbSuffix("Sing"));
     }
 
 }

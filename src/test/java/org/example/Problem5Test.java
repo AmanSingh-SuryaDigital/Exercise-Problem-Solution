@@ -7,8 +7,8 @@ import static org.junit.Assert.assertEquals;
 public class Problem5Test {
 
     @Test
-    public void verbingTest() {
-        assertEquals("Helloworlding",Problem5.verbing("Helloworld"));
-        assertEquals("Singly",Problem5.verbing("Sing"));
+    public void addVerbSuffixTest() {
+        assertEquals("Helloworlding",Problem5.addVerbSuffix("Helloworld"));
+        assertEquals("Singly",Problem5.addVerbSuffix("Sing"));
     }
 }
