@@ -8,8 +8,8 @@ public class Problem4Test {
 
     @Test
     public void mixUpTest() {
-        assertEquals( "pox mid",Problem4.mixUp("mix","pod"));
-        assertEquals( "Sian Amngh",Problem4.mixUp("Aman","Singh"));
+        assertEquals( "pox mid",Problem4.swapFirstTwoCharacters("mix","pod"));
+        assertEquals( "Sian Amngh",Problem4.swapFirstTwoCharacters("Aman","Singh"));
     }
 
 }
