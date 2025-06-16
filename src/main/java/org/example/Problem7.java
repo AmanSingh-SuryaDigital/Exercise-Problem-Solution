@@ -2,31 +2,31 @@ package org.example;
 
 public class Problem7 {
 
-    public static String frontBack(String first, String second) {
+    public static String mergeFrontAndBackHalves(String firstInput, String secondInput) {
 
-        int firstMid = first.length() / 2;
-        int secondMid = second.length() / 2;
+        int firstInputMidIndex = firstInput.length() / 2;
+        int secondInputMidIndex = secondInput.length() / 2;
 
-        if (first.length() % 2 == 1) {
-            firstMid += 1;
+        if (firstInput.length() % 2 == 1) {
+            firstInputMidIndex += 1;
         }
 
-        if (second.length() % 2 == 1) {
-            secondMid += 1;
+        if (secondInput.length() % 2 == 1) {
+            secondInputMidIndex += 1;
         }
 
-        String firstFront = first.substring(0, firstMid);
-        String secondFront = second.substring(0, secondMid);
-        String firstBack = first.substring(firstMid);
-        String secondBack = second.substring(secondMid);
+        String firstOutputFrontHalf = firstInput.substring(0, firstInputMidIndex);
+        String secondOutputFrontHalf = secondInput.substring(0, secondInputMidIndex);
+        String firstOutputBackHalf = firstInput.substring(firstInputMidIndex);
+        String secondOutputBackHalf = secondInput.substring(secondInputMidIndex);
 
-        return firstFront + secondFront + firstBack + secondBack;
+        return firstOutputFrontHalf + secondOutputFrontHalf + firstOutputBackHalf + secondOutputBackHalf;
     }
 
     public static void main(String[] args) {
 
-        System.out.println(frontBack("abcd","xy"));
-        System.out.println(frontBack("abcdefg","xyz"));
+        System.out.println(mergeFrontAndBackHalves("abcd","xy"));
+        System.out.println(mergeFrontAndBackHalves("abcdefg","xyz"));
     }
 
 }
