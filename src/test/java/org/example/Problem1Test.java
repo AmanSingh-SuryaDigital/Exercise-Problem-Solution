@@ -15,7 +15,7 @@ public class Problem1Test {
 
         assertEquals("Number of donuts: 5",pr.donuts(5));
         assertEquals("Number of donuts: many",pr.donuts(23));
-        assertEquals("Number of donuts: 0",pr.donuts(-1));
+        assertEquals("Number of donuts: -1",pr.donuts(-1));
 
     }
 
