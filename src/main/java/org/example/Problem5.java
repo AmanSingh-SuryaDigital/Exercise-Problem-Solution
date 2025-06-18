@@ -3,6 +3,7 @@ package org.example;
 public class Problem5 {
 
     public static String addVerbSuffix(String inputWord) {
+
         if (inputWord.length() < 3) {
             return inputWord;
         } else if (inputWord.replaceAll("\\s","").endsWith("ing")) {
