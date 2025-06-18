@@ -4,10 +4,10 @@ public class Problem4 {
 
     public static String swapFirstTwoCharacters(String firstWord, String secondWord) {
 
-        String swappedFirstWord = secondWord.substring(0, 2) + firstWord.substring(2);
-        String swappedSecondWord = firstWord.substring(0, 2) + secondWord.substring(2);
+        String modifiedInputOne = secondWord.substring(0, 2) + firstWord.substring(2);
+        String modifiedInputSecond = firstWord.substring(0, 2) + secondWord.substring(2);
 
-        return swappedFirstWord + " " + swappedSecondWord;
+        return modifiedInputOne + " " + modifiedInputSecond;
     }
 
     public static void main(String[] args) {
