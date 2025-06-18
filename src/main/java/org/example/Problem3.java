@@ -5,14 +5,12 @@ public class Problem3 {
 
         StringBuilder modifiedStringBuilder = new StringBuilder(inputString.substring(0, 1));
 
-        char initialCharacter = inputString.charAt(0);
-
         for (int i = 1; i < inputString.length(); i++) {
-            char currentChar = inputString.charAt(i);
-            if (currentChar == initialCharacter) {
+
+            if (inputString.charAt(i) == inputString.charAt(0)) {
                 modifiedStringBuilder.append("*");
             } else {
-                modifiedStringBuilder.append(currentChar);
+                modifiedStringBuilder.append(inputString.charAt(i));
             }
         }
 
