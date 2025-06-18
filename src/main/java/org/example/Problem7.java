@@ -4,6 +4,10 @@ public class Problem7 {
 
     public static String mergeFrontAndBackHalves(String firstInput, String secondInput) {
 
+        if(firstInput.length()<2  && secondInput.length()<2){
+            return "Input length is not valid ,Length should be more than equals to 2";
+        }
+
         int firstInputMidIndex = firstInput.length() / 2;
         int secondInputMidIndex = secondInput.length() / 2;
 
