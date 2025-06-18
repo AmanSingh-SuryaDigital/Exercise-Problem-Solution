@@ -4,8 +4,8 @@ public class Problem6 {
 
     public static String replaceNotBadWithGood(String inputSentence) {
 
-        int notPosition = inputSentence.toLowerCase().indexOf("not".toLowerCase());
-        int badPosition = inputSentence.toLowerCase().indexOf("bad".toLowerCase());
+        int notPosition = inputSentence.toLowerCase().indexOf("not");
+        int badPosition = inputSentence.toLowerCase().indexOf("bad");
 
         String updatedSentence = inputSentence;
 
