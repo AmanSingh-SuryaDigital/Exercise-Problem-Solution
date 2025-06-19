@@ -2,16 +2,16 @@ package org.example;
 
 public class Problem4 {
 
-    public static String swapFirstTwoCharacters(String firstWord, String secondWord) {
+    public static String swapFirstTwoCharacters(String firstInput, String secondInput) {
 
-        if(firstWord.length() < 2 && secondWord.length() < 2){
+        if(firstInput.length() < 2 && secondInput.length() < 2){
             return "Input length should be more than 2";
         }
 
-        String modifiedInputOne = secondWord.substring(0, 2) + firstWord.substring(2);
-        String modifiedInputSecond = firstWord.substring(0, 2) + secondWord.substring(2);
+        String outputFirstPart = secondInput.substring(0, 2) + firstInput.substring(2);
+        String outputSecondPart = firstInput.substring(0, 2) + secondInput.substring(2);
 
-        return modifiedInputOne + " " + modifiedInputSecond;
+        return outputFirstPart + " " + outputSecondPart;
     }
 
     public static void main(String[] args) {
