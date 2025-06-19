@@ -19,6 +19,9 @@ public class Problem6 {
     public static void main(String[] args) {
 
         System.out.println(replaceNotBadWithGood("This dinner is not that bad!"));
+        System.out.println(replaceNotBadWithGood("This dinner is  that good!"));
+        System.out.println(replaceNotBadWithGood("The movie is not so bad."));
+
     }
 
 }
