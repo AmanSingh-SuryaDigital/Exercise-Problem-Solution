@@ -6,11 +6,11 @@ public class Problem3 {
         StringBuilder modifiedStringBuilder = new StringBuilder(inputString.substring(0, 1));
 
         for (int i = 1; i < inputString.length(); i++) {
-
-            if (inputString.charAt(i) == inputString.charAt(0)) {
+            char currentChar = inputString.charAt(i);
+            if (currentChar== inputString.charAt(0)) {
                 modifiedStringBuilder.append("*");
             } else {
-                modifiedStringBuilder.append(inputString.charAt(i));
+                modifiedStringBuilder.append(currentChar);
             }
         }
 
