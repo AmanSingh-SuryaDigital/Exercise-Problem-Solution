@@ -5,16 +5,21 @@ public class Problem3 {
 
         StringBuilder modifiedStringBuilder = new StringBuilder(inputString.substring(0, 1));
 
-        for (int i = 1; i < inputString.length(); i++) {
-            char currentChar = inputString.charAt(i);
-            if (currentChar== inputString.charAt(0)) {
+        char []ch=inputString.toCharArray();
+
+        int count=0;
+        for(char c: ch){
+            if( count >=1 && c==ch[0]){
                 modifiedStringBuilder.append("*");
-            } else {
-                modifiedStringBuilder.append(currentChar);
             }
+            else if(count >=1){
+                modifiedStringBuilder.append(c);
+            }
+            count++;
         }
 
         return modifiedStringBuilder.toString();
+
     }
 
     public static void main(String[] args) {
