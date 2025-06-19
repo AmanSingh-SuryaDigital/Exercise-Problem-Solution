@@ -6,10 +6,10 @@ public class Problem5 {
 
         if (inputWord.length() < 3) {
             return inputWord;
-        } else if (inputWord.replaceAll("\\s","").toLowerCase().endsWith("ing")) {
-            return inputWord.replaceAll("\\s","").toLowerCase() + "ly";
+        } else if (inputWord.trim().toLowerCase().endsWith("ing")) {
+            return inputWord.trim() + "ly";
         } else {
-            return inputWord.replaceAll("\\s","").toLowerCase() + "ing";
+            return inputWord.replaceAll("\\s","") + "ing";
         }
     }
 
@@ -17,6 +17,7 @@ public class Problem5 {
         System.out.println(addVerbSuffix("Helloworlding "));
         System.out.println(addVerbSuffix("Sing"));
         System.out.println(addVerbSuffix("Helloworld ING "));
+        System.out.println(addVerbSuffix("SiNg "));
 
     }
 
