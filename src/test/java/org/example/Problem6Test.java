@@ -14,6 +14,7 @@ public class Problem6Test {
         assertEquals("The movie is so good.", Problem6.replaceNotBadWithGood("The movie is so good."));
         assertEquals("The bad is not so.", Problem6.replaceNotBadWithGood("The bad is not so."));
         assertEquals("The dinner is bad", Problem6.replaceNotBadWithGood("The dinner is bad"));
+        assertEquals("This is movie", Problem6.replaceNotBadWithGood("This is movie"));
 
     }
 }
