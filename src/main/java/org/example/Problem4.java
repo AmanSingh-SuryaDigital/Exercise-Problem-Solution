@@ -4,7 +4,7 @@ public class Problem4 {
 
     public static String swapFirstTwoCharacters(String firstInput, String secondInput) {
 
-        if(firstInput.length() < 2 && secondInput.length() < 2){
+        if(firstInput.length() < 2 || secondInput.length() < 2){
             return "Input length should be more than 2";
         }
 
@@ -19,6 +19,7 @@ public class Problem4 {
         System.out.println(swapFirstTwoCharacters("mix", "pod"));
         System.out.println(swapFirstTwoCharacters("Aman", "Singh"));
         System.out.println(swapFirstTwoCharacters("ab","cd"));
+        System.out.println(swapFirstTwoCharacters("a","d"));
     }
 
 }
